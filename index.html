@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOENIX Partner Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">PHOENIX</div>
+            <ul class="nav-menu">
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#showcase" class="nav-link">Showcase</a></li>
+                <li><a href="#dataset" class="nav-link">Dataset</a></li>
+                <li><a href="#technology" class="nav-link">Technology</a></li>
+                <li><a href="#statistics" class="nav-link">Statistics</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">PHOENIX AI Partner Platform</h1>
+            <p class="hero-tagline">Empowering Partners with Next-Generation AI Voice Technology</p>
+            <a href="#dashboard" class="cta-button">Explore Platform</a>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard" id="dashboard">
+        <div class="container">
+            <h2 class="section-title">Partner Dashboard</h2>
+            <div class="dashboard-cards">
+                <div class="card">
+                    <div class="card-icon">📞</div>
+                    <h3>Total Calls</h3>
+                    <p class="card-number" data-target="15847">0</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💰</div>
+                    <h3>Sales Generated</h3>
+                    <p class="card-number" data-target="8392">0</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Success Rate</h3>
+                    <p class="card-number" data-target="87">0</p>
+                    <span class="percentage">%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!<!-- Showcase Section -->
+<section class="showcase" id="showcase">
+    <div class="container">
+        <h2 class="section-title">MVP Audio Demos</h2>
+        <p class="section-description">Experience the power of PHOENIX AI voice technology</p>
+        <div class="audio-grid">
+
+            <div class="audio-player">
+                <h4>Customer Service Call</h4>
+                <audio controls>
+                    <source src="audios/mijoz1.mp3" type="audio/mpeg">
+                    Sizning brauzeringiz audio formatini qo‘llab-quvvatlamaydi.
+                </audio>
+            </div>
+
+            <div class="audio-player">
+                <h4>Sales Pitch Demo</h4>
+                <audio controls>
+                    <source src="audios/mijoz2.mp3" type="audio/mpeg">
+                    Sizning brauzeringiz audio formatini qo‘llab-quvvatlamaydi.
+                </audio>
+            </div>
+
+            <div class="audio-player">
+                <h4>Product Information</h4>
+                <audio controls>
+                    <source src="audios/mijoz3.mp3" type="audio/mpeg">
+                    Sizning brauzeringiz audio formatini qo‘llab-quvvatlamaydi.
+                </audio>
+            </div>
+
+            <div class="audio-player">
+                <h4>Support Interaction</h4>
+                <audio controls>
+                    <source src="audios/mijoz4.mp3" type="audio/mpeg">
+                    Sizning brauzeringiz audio formatini qo‘llab-quvvatlamaydi.
+                </audio>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Dataset Section -->
+    <section class="dataset" id="dataset">
+        <div class="container">
+            <h2 class="section-title">Training Dataset</h2>
+            <p class="section-description">Our AI is trained on extensive voice data for optimal performance</p>
+            <div class="dataset-content">
+                <div class="dataset-info">
+                    <div class="info-item">
+                        <h3>Total Audio Samples</h3>
+                        <p class="big-number">15.000+</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Training Hours</h3>
+                        <p class="big-number">10,000+</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Languages Supported</h3>
+                        <p class="big-number">15+</p>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="datasetChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section class="technology" id="technology">
+        <div class="container">
+            <h2 class="section-title">How PHOENIX Works</h2>
+            <div class="tech-flow">
+                <div class="tech-step">
+                    <div class="tech-icon">🎤</div>
+                    <h3>Voice Input</h3>
+                    <p>Customer speaks naturally</p>
+                </div>
+                <div class="tech-arrow">→</div>
+                <div class="tech-step">
+                    <div class="tech-icon">🧠</div>
+                    <h3>AI Processing</h3>
+                    <p>Neural network analysis</p>
+                </div>
+                <div class="tech-arrow">→</div>
+                <div class="tech-step">
+                    <div class="tech-icon">💡</div>
+                    <h3>Smart Response</h3>
+                    <p>Context-aware reply</p>
+                </div>
+                <div class="tech-arrow">→</div>
+                <div class="tech-step">
+                    <div class="tech-icon">🔊</div>
+                    <h3>Voice Output</h3>
+                    <p>Natural conversation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics" id="statistics">
+        <div class="container">
+            <h2 class="section-title">Platform Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="500">0</h3>
+                    <p>Active Partners</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="2500000">0</h3>
+                    <p>API Calls/Month</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="99">0</h3>
+                    <span class="percentage">%</span>
+                    <p>Uptime</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number" data-target="24">0</h3>
+                    <span class="percentage">ms</span>
+                    <p>Avg Response Time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">Interested in becoming a PHOENIX partner? Contact us today</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="form-message" id="formMessage"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>PHOENIX</h3>
+                    <p>Leading the future of AI-powered voice communication. Our advanced technology empowers businesses to deliver exceptional customer experiences through intelligent voice interactions.</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2025 PHOENIX AI Technologies. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
